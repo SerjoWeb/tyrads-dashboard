@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply bg-main-bg;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EBEBEB;
+  border-radius: 0.125rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #197BBD;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  border-radius: 0.125rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #197BBD;
+}
+
+.swiper-wrapper {
+  padding: 10px 5px;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.swiper-button-next {
+  right: 0;
+  left: auto;
+}

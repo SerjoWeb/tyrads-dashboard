@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Katty Smith",
+      "email": "kattysmith@mail.com",
+      "password": "Aa12@3456",
+      "admin": true,
+      "image": "/user-1.png",
+      "created": "2024-03-09T23:46:09.860Z",
+      "last_modified": "2024-03-09T23:46:09.860Z"
+    },
+    {
+      "id": 2,
+      "fullname": "Betty Dern",
+      "email": "bettydern@mail.com",
+      "password": "Aa12@3456",
+      "admin": false,
+      "image": "/user-2.png",
+      "created": "2024-03-09T23:46:24.006Z",
+      "last_modified": "2024-03-09T23:46:24.006Z"
+    }
+  ]
+}
